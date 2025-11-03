@@ -59,3 +59,16 @@ section [id="uvod"] #uvod {
     width: 100%;
     height: auto;
 }
+
+.slika p:last-child {
+    font-size: 0.8em;
+    padding-top: 0.1em;
+}
+
+a::before {
+    content: "🔗";
+}
+
+.slika img {
+    border-radius: 50%;
+}
